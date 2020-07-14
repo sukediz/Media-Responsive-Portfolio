@@ -1,90 +1,237 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1">
-    <title>Sukey Ong Bootstrap Responsive Portfolio</title>
-
-    <!-- Reset CSS -->
-    <link rel="stylesheet" href="assets/css/reset.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-        <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sukey Ong | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet">
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
 
 </head>
 
 <body>
-
-    <!-- Creates the Overall Grid -->
-    <div class="container-fluid">
-
-        <!-- Row 1 -->
     <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><h1>Sukey Ong</h1></a>
-
-                <div class="collapse navbar-collapse  justify-content-center" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="about.html">About <span class="sr-only"></span></a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
-                  </div>
+        <div class="container">
+            <nav>
+                <div class="nav-brand">
+                    <a href="index.html">
+                        Home
+                    </a>
                 </div>
-              </nav>
+                <div class="burger-menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#landing-page">
+                            <img src="images/profile-pic.jpg" alt="Sukey Ong" class="profile-pic nav-link" />
+                            <span class="caption nav-link">Sukey Ong</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item social-icons">
+                        <a href="https://github.com/sukediz" target="_blank" class="nav-link">
+                            <i class="fab fa-dev"></i></a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <!-- Row 2 -->
-    <section>
-        <main class="container-fluid">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="page-header">
-                        <h1>Contact</h1>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-9">
-                            <form>
-                                <div class="form-group">
-                                  <label for="exampleInputEmail1">Email address</label>
-                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                </div>
-                                <div class="form-group">
-                                  <label for="exampleInputPassword1">Password</label>
-                                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                </div>
-                                <div class="form-check">
-                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                              </form>
-                            </p>
+    <main>
+        <section id="landing-page" class="landing-page">
+            <div class="container">
+                <div class="main-message">
+                    <h1>Sukey Ong</h1>
+                    <h3>Full Stack Developer</h3>
+                    <p>
+                        HTML . CSS . JavaScript .
+                    </p>
+                    <div class="intro-btn">
+                        <div class="cta">
+                            <a href="#contact" class="btn">Get In Touch</a>
                         </div>
                     </div>
-                </div>
-            </main>
-            </div>
-
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <!-- Row 1 -->
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1>Footer</h1>
+                    <div>
+                        <a href="#about" class="scroll-down">
+                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-img">
+                    <img src="images/profile-pic.jpg" alt="Sukey Ong" class="about-pic" />
+                </div>
+                <div class="about-text-box">
+                    <h2>Hello 👋🏽</h2>
+                    <p>
+                        I'm Sukey Ong, a coffee lover, 30-something-year-old full stack web developer with a strong
+                        educational background in marketing. I am currently freelancing for local wine brands, but have
+                        over 5+ years in brand management experience.
+                    </p>
+                    <p>
+                        I started out in web design after completing the University of Western Australia Coding Bootcamp
+                        in 2020 as I wanted to be able to create and produce strong user-engaging online presences for
+                        much
+                        loved brands.
+                        I love to learn new things every day and keep up with the new technologies. I have become
+                        familiar with HTML, CSS5, and Javascript with exposure to jQuery,
+                        Bootstrap and the application of API's.
+                    </p>
+                </div>
+            </div>
+            <hr />
+        </section>
 
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="title-heading">
+                    <h1>Projects</h1>
+                    <p>
+                        These are some of my recent projects
+                    </p>
+                </div>
+            </div>
+            <!-- First project -->
+            <div class="project-item">
+                <div class="project-img has-margin-right">
+                    <img src="assets/images/work-day-scheduler.png" />
+                </div>
+                <div class="project-description">
+                    <h1>Work Day Scheduler</h1>
+                    <p>
+                        Record daily activities to the Work Day Scheduler which also keeps track of your real-time
+                        schedule.
+                        Events are saved in local storage for easy retrieval.
+                    </p>
+                    <a href="https://github.com/sukediz/Work-Day-Scheduler" class="project-link" target="_blank"><i
+                            class="fa fa-github" aria-hidden="true"> View Github Repository</i></a>
+                </div>
+            </div>
+
+            <!-- Second service -->
+            <div class="project-item">
+                <div class="project-description has-margin-right">
+                    <h1>Password Generator</h1>
+                    <p>
+                        This is a simple to-do app I developed to generate a random password using vanilla JavaScript.
+                        It is allows the user to pick conditions for the type of password that is generated with a mix
+                        of special characters,
+                        upper case and lower case alpha numeric characters. Useful for those pesky websites which asks
+                        for a "strong" password.
+                    </p>
+                    <a href="https:/github.com/sukediz/Password-Generator/" class="project-link" target="_blank"><i
+                            class="fa fa-github" aria-hidden="true"> View Github Repository</i></a>
+                </div>
+                <div class="project-img">
+                    <img src="assets/images/password-generator.png" />
+                </div>
+            </div>
+
+            <!-- Third service -->
+            <div class="project-item">
+                <div class="project-img has-margin-right">
+                    <img src="assets/images/wine2dine.png" />
+                </div>
+                <div class="project-description">
+                    <h1>Wine2Dine</h1>
+                    <p>
+                        Discover what wines go well with your chosen cuisine and then search out the closest "BYO"
+                        restaurants in your local area.
+                    </p>
+                    <a href="https://github.com/fishwickid/team_project_01" class="project-link" target="_blank"><i
+                            class="fa fa-github" aria-hidden="true"> View Github Repository</i></a>
+                </div>
+            </div>
+
+            <!-- Fourth service -->
+            <div class="project-item">
+                <div class="project-description has-margin-right">
+                    <h1>Weather Dashboard</h1>
+                    <p>
+                        This is a simple app developed to find different weather conditions in cities using the OpenWeather API.
+
+                    </p>
+                    <a href="https://github.com/sukediz/Weather-Dashboard" class="project-link" target="_blank"><i
+                            class="fa fa-github" aria-hidden="true"> View Github Repository</i></a>
+                </div>
+                <div class="project-img">
+                    <img src="assets/images/weather-dashboard.png" />
+                </div>
+            </div>
+
+            <hr />
+        </section>
+        <section id="contact" class="contact">
+            <h1>Get In Touch</h1>
+            <p>
+                I'd love if you reached out to me. Even if it's just to say "Hey!".
+                Don't hesitate! Drop me a line and I’ll get back to you ASAP!
+            </p>
+            <div class="container">
+                <p>
+                    <a href="mailto:sukey.ong1@gmail.com"><i class="fas fa-envelope-open"></i>
+                        sukey.ong1@gmail.com</a>
+                </p>
+                <p>
+                    <a href="https://github.com/sukediz" target="_blank">
+                        <i class="fab fa-github"> Github</i></a>
+                </p>
+                <p>
+                    <a href="https://www.linkedin.com/in/sukey-ong-2a3817163/" target="_blank">
+                        <i class="fab fa-linkedin"> LinkedIn</i></a>
+                </p>
+                <p>
+                    <a href="assets/resume.pdf" target="_blank">
+                        <i class="fab fa-id-card"> Resume</i></a>
+                </p>
+
+            </div>
+            <hr />
+        </section>
+        <footer>
+            <div class="footer-nav">
+                <a href="#landing-page" class="footer-nav-link">Home</a>
+                <a href="#about" class="footer-nav-link">About</a>
+                <a href="#services" class="footer-nav-link">Services</a>
+                <a href="#projects" class="footer-nav-link">Projects</a>
+                <a href="#contact" class="footer-nav-link">Contact</a>
+            </div>
+            <div class="footer-coded-by">
+                <p>
+                    Built by Sukey Ong &copy; 2020
+                </p>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com/sukediz" target="_blank">
+                    <i class="fab fa-dev"></i></a>
+            </div>
+        </footer>
+    </main>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/836a943e18.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
