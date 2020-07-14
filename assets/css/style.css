@@ -21,7 +21,7 @@ html {
 a {
   text-decoration: none;
   font-family: "Share Tech Mono", monospace;
-  font-size: 12px;
+  font-size: 20px;
   color: rgba(3, 155, 155);
 }
 
@@ -437,7 +437,8 @@ hr {
 .project-item {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: justify;
+  line-height: 2.25rem;
   margin: 0 1.45rem 5rem 1.45rem;
 }
 
