@@ -381,6 +381,7 @@ hr {
 
 .title-heading p {
   text-transform: lowercase;
+  line-height: 2.25rem;
   font-family: "Poppins", sans-serif;
   margin-bottom: 5rem;
 }
@@ -479,6 +480,7 @@ hr {
   min-height: 100vh;
   max-width: 70rem;
   margin: auto;
+  line-height: 2.25rem;
 }
 
 .contact h1 {
