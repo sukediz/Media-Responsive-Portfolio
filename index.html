@@ -20,11 +20,10 @@
     <header>
         <div class="container">
             <nav>
-                <div class="footer-nav">
-                    <a href="#landing-page" class="footer-nav-link">Home</a>
-                    <a href="#about" class="footer-nav-link">About</a>
-                    <a href="#projects" class="footer-nav-link">Projects</a>
-                    <a href="#contact" class="footer-nav-link">Contact</a>
+                <div class="nav-brand">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Home" />
+                    </a>
                 </div>
                 <div class="burger-menu-icon">
                     <div class="line1"></div>
@@ -35,8 +34,7 @@
                     <li class="nav-item">
                         <a href="#landing-page">
                             <img src="images/profile-pic.jpg" alt="Sukey Ong" class="profile-pic nav-link" />
-                            <span class="caption nav-link">Sukey Ong</span>
-                        </a>
+                            </a>
                     </li>
                     <li class="nav-item">
                         <a href="#about" class="nav-link">About</a>
@@ -47,11 +45,15 @@
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact</a>
                     </li>
-                    <li class="nav-item social-icons">
-                        <a href="https://github.com/sukediz" target="_blank" class="nav-link">
-                            <i class="fab fa-dev"></i></a>
+                    <li class="nav-item">
+                        <a href="assets/resume.pdf" class="nav-link" target="_blank">Resume</a>
                     </li>
-
+                    <li class="nav-item social-icons">
+                        <a href="https://www.linkedin.com/in/sukey-ong-2a3817163/" target="_blank" class="nav-link">
+                            <i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/sukediz" target="_blank" class="nav-link">
+                            <i class="fab fa-github"></i></a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -88,13 +90,15 @@
                     <h2>Hello 👋🏽</h2>
                     <p>
                         I'm Sukey Ong, a wine loving, 30-something-year-old full stack web developer with a strong
-                        educational background in marketing. I have over 5+ years in brand management experience from sales to end consumer marketing 
+                        educational background in marketing. I have over 5+ years in brand management experience from
+                        sales to end consumer marketing
                         and is currently managing the Carpe Diem Vineyards wine label.
                     </p>
                     <p>
                         I started out in web design after completing the University of Western Australia Coding Bootcamp
                         in 2020 as I wanted to be able to create and produce strong online presences for
-                        much loved brands. It has allowed me to pursue my love for creative and user intuitive design, which are important in marketing.
+                        much loved brands. It has allowed me to pursue my love for creative and user intuitive design,
+                        which are important in marketing.
                     </p>
                     <p>
                         I love learning new things every day and keep up with the new technologies. I have become
@@ -124,8 +128,7 @@
                     <h1>Work Day Scheduler</h1>
                     <p>
                         Record daily activities to the Work Day Scheduler which also keeps track of your real-time
-                        schedule.
-                        Events are saved in local storage for easy retrieval.
+                        schedule. Events are saved in local storage for easy retrieval.
                     </p>
                     <a href="https://github.com/sukediz/Work-Day-Scheduler" class="project-link" target="_blank"><i
                             class="fa fa-github" aria-hidden="true"></i> View GitHub Repository</a>
@@ -137,14 +140,14 @@
                 <div class="project-description has-margin-right">
                     <h1>Password Generator</h1>
                     <p>
-                        This is a simple to-do app I developed to generate a random password using vanilla JavaScript.
-                        It is allows the user to pick conditions for the type of password that is generated with a mix
+                        An app which allows the user to pick conditions for the type of password to be generated with a
+                        mix
                         of special characters,
                         upper case and lower case alpha numeric characters. Useful for those pesky websites which asks
                         for a "strong" password.
                     </p>
                     <a href="https:/github.com/sukediz/Password-Generator/" class="project-link" target="_blank"><i
-                            class="fa fa-github" aria-hidden="true"></i> View Github Repository</a>
+                            class="fa fa-github" aria-hidden="true"></i> View GitHub Repository</a>
                 </div>
                 <div class="project-img">
                     <img src="assets/images/password-generator.png" />
@@ -160,7 +163,7 @@
                     <h1>Wine2Dine</h1>
                     <p>
                         Discover what wines go well with your chosen cuisine and then search out the closest "BYO"
-                        restaurants in your local area.
+                        restaurants in your local area, using the Zomato API.
                     </p>
                     <a href="https://github.com/fishwickid/team_project_01" class="project-link" target="_blank"><i
                             class="fa fa-github" aria-hidden="true"></i> View GitHub Repository</a>
@@ -187,17 +190,17 @@
             <hr />
         </section>
         <section id="contact" class="contact">
-                <h1>GET IN TOUCH</h1>
+            <h1>GET IN TOUCH</h1>
             <p>
                 I'd love if you reached out to me. Even if it's just to say "Hey!".
                 You can also find me my contact information below.
             </p>
             </div>
 
-           <div class="container">
+            <div class="container">
                 <p>
                     <a href="mailto:sukey.ong1@gmail.com"><i class="fas fa-envelope-open"></i>
-                        sukey.ong1@gmail.com</a>
+                        E-mail</a>
                 </p>
                 <p>
                     <a href="tel:+61466976601">
@@ -239,6 +242,7 @@
     </main>
 
     <script src="https://kit.fontawesome.com/836a943e18.js" crossorigin="anonymous"></script>
+    <script src="assets/javascript/main.js"></script>
 </body>
 
 </html>
