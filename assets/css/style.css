@@ -414,13 +414,6 @@ hr {
   -webkit-text-fill-color: transparent;
 }
 
-.tier-item p {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.4rem;
-}
-.tier-item i {
-  font-size: 3.5rem;
-}
 
 /* Projects */
 .has-margin-right {
