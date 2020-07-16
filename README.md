@@ -6,8 +6,8 @@ A personal media responsive portfolio featuring a brief  autobiography, current 
 https://sukediz.github.io/Media-Responsive-Portfolio/
 
 **Technologies Used**:
-*HTML5
-*CSS 
-*Javascript
-*jQuery
-*Bootstrap
+*  HTML5
+*  CSS 
+*  Javascript
+*  jQuery
+*  Bootstrap
